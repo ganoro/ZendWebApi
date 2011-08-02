@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.eclipse.egit.core.GitProvider"/>
+<provider id="org.eclipse.team.svn.core.svnnature">
+<project reference="1.0.1,http://svn.phing.info/trunk,svn.phing.info,403cb5ad3fbd00101e598f205f56a6fa;http://svn.phing.info/;http://svn.phing.info/trunk/;branches;tags;trunk;true;34c17c5f-800b-0410-92ba-a69295604261;http://svn.phing.info;;false;;;0"/>
+</provider>
+</psf>
