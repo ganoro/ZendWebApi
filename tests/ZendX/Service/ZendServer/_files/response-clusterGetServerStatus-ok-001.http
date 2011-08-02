@@ -1,0 +1,37 @@
+HTTP/1.0 200 OK
+X-Powered-By: PHP/5.3.3 ZendServer/5.0
+Date: Sun, 28 Nov 2010 12:11:07 GMT
+Server: lighttpd/1.4.26
+Connection: close
+Content-type: application/vnd.zend.serverapi+xml; version=1.0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<zendServerAPIResponse xmlns="http://www.zend.com/server/api/1.0">
+    
+  <requestData>
+    <apiKeyName>angel.eyes</apiKeyName>
+    <method>clusterGetServerStatus</method>
+  </requestData>
+  
+  <responseData>
+    <serversList>
+      <serverInfo>
+        <id>12</id>
+        <name>www-01</name>
+        <address>https://www-01.local:10082/ZendServer</address>
+        <status>OK</status>
+        <messageList />
+      </serverInfo>
+      <serverInfo>
+        <id>15</id>
+        <name>www-02</name>
+        <address>https://www-02.local:10082/ZendServer</address>
+        <status>pendingRestart</status>
+        <messageList>
+        <warning>This server is waiting a PHP restart</warning>
+        </messageList>
+      </serverInfo>
+    </serversList>
+  </responseData>
+
+</zendServerAPIResponse>
